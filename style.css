@@ -447,6 +447,7 @@ header.hero {
   right: 0;
   transform: translateY(-50%);
   z-index: 15;
+  margin: 0;
   padding: 0 48px;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;

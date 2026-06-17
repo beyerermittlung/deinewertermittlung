@@ -1925,8 +1925,7 @@ header.hero {
   }
 
   .siegel-logo--ing {
-    grid-column: 1 / -1;
-    grid-row: 2;
+    display: none;
   }
 
   .siegel-logo--stamp img {
@@ -1941,11 +1940,6 @@ header.hero {
     max-width: 110px;
   }
 
-  .siegel-logo--ing img {
-    width: 100%;
-    height: 90px;
-    max-width: none;
-  }
 
   .ausweis-wrap {
     margin-left: 4px;

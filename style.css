@@ -1910,18 +1910,46 @@ header.hero {
     width: 95%;
   }
 
+  .siegel-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .siegel-logo--stamp {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .siegel-logo--akn {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .siegel-logo--ing {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
   .siegel-logo--stamp img {
-    width: 120px;
-    height: 120px;
+    width: 100%;
+    max-width: 120px;
+    height: auto;
   }
 
   .siegel-logo--akn img {
-    width: 74px;
-    height: 120px;
+    width: 100%;
+    max-width: 74px;
+    height: auto;
   }
 
   .siegel-logo--ing img {
-    height: 72px;
+    width: 100%;
+    max-width: 280px;
+    height: 64px;
+  }
+
+  .ausweis-wrap {
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
   .ausweis-img {

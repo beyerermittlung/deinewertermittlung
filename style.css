@@ -1931,20 +1931,20 @@ header.hero {
 
   .siegel-logo--stamp img {
     width: 100%;
-    max-width: 120px;
     height: auto;
+    max-width: 160px;
   }
 
   .siegel-logo--akn img {
     width: 100%;
-    max-width: 74px;
     height: auto;
+    max-width: 110px;
   }
 
   .siegel-logo--ing img {
     width: 100%;
-    max-width: 280px;
-    height: 64px;
+    height: 90px;
+    max-width: none;
   }
 
   .ausweis-wrap {
